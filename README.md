@@ -1,6 +1,6 @@
 # 🎧 Podcast Browser Web App
 
-A responsive Vanilla JavaScript application that allows users to browse podcast shows, view brief summaries on the landing page, and explore detailed episode information in a modal-style detail page — all without navigating away from the app.
+A responsive React application that allows users to browse podcast shows, view brief summaries on the landing page, and explore detailed episode information in a modal-style detail page — all without navigating away from the app.
 
 ## 🚀 Features
 
