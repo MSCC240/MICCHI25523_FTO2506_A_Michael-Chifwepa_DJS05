@@ -1,0 +1,108 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* ----- Header Layout ----- */
+.header {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.coverImage {
+  width: 220px;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.headerInfo {
+  flex: 1;
+}
+
+.headerInfo h1 {
+  margin-bottom: 1rem;
+}
+
+/* Description */
+.description {
+  margin-top: 1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* Genre Tags */
+.genreTags {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background: #eef2ff;
+  padding: 0.4rem 0.7rem;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+
+/* ---- Season Section ---- */
+.seasons {
+  margin-top: 2.5rem;
+}
+
+/* Back Button */
+.backButton {
+  margin-bottom: 1rem;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.seasonSelector {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.seasonSelector select {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.detailsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 1.5rem;
+  gap: 1.2rem;
+  font-size: 0.9rem;
+}
+
+.detailsGrid strong {
+  display: block;
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-bottom: 0.25rem;
+}
+
+.tagRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tag {
+  background: #eee;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
